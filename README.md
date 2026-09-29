@@ -1,32 +1,54 @@
-# Week 3 – PDF Password Recovery
+# 🔐 Week 3 – PDF Password Recovery
 
-## Overview
+## ⭐ Overview ⭐
 
-During Week 3 of my cybersecurity internship, I worked on a practical exercise focused on recovering the password of a password-protected PDF file. This gave me the opportunity to work with different tools and understand how they can be used together during a password recovery process.
+For **Week 3 of my cybersecurity internship**, I worked on a practical exercise involving a password-protected PDF. My goal was to recover the PDF password using a few different tools and understand how they work together.
 
-## Tools I Used
+It was nice to actually get hands-on with the tools and see the process from start to finish rather than just reading about it. 💻🔎
 
-* PDF Hash Extractor
-* Notepad
-* John the Ripper
-* Johnny
+## 🛠️ Tools I Used
 
-## What I Did
+* 📄 **PDF Hash Extractor**
+* 📝 **Notepad**
+* 🔐 **John the Ripper**
+* 🖥️ **Johnny**
 
-I started by using **PDF Hash Extractor** to extract the hash from the password-protected PDF.
+## 🔎 What I Did
 
-I then copied the extracted hash into **Notepad** and saved it as a `.txt` file so it could be used with Johnny.
+### 1️⃣ Extracting the Hash
 
-After that, I opened the file in **Johnny**, the graphical interface for John the Ripper, and used it to work through the password recovery process.
+I started by using **PDF Hash Extractor** to extract the hash from the password-protected PDF. 📄🔎
 
-Once the password was recovered, I used it to open the PDF and confirm that it worked.
+### 2️⃣ Preparing the File
 
-## What I Learned
+After extracting the hash, I copied it into **Notepad** and saved it as a `.txt` file. This allowed me to use the file with Johnny. 📝💾
 
-This exercise helped me understand the basic process behind password recovery and gave me hands-on experience using **PDF Hash Extractor, Notepad, John the Ripper, and Johnny**.
+### 3️⃣ Using Johnny
 
-I also learned how different tools can be used together to complete a cybersecurity task and became more comfortable following a technical process step by step.
+Next, I opened the `.txt` file in **Johnny**, which provides a graphical interface for John the Ripper. I then started the password recovery process. 🔐💻
 
-## Ethical Considerations
+### 4️⃣ Checking the Password
 
-I completed this exercise as part of my cybersecurity internship in a controlled learning environment. Password recovery tools should only be used on files or systems where permission has been given.
+Once the password was recovered, I used it to open the PDF and checked that it worked successfully. ✅📄
+
+## 🧠 What I Learned
+
+This exercise gave me a better understanding of how password recovery works in a controlled environment.
+
+I also got more comfortable with:
+
+* 🔎 Extracting hashes from PDF files
+* 📝 Preparing files for use with cybersecurity tools
+* 🔐 Using John the Ripper
+* 🖥️ Using Johnny
+* 🧩 Following a technical process step by step
+* 📚 Documenting my work
+
+## 💭 My Takeaway
+
+I enjoyed this exercise because I was able to work with the tools myself and see how each step connected to the next. It also showed me that even a simple task can involve several different steps and tools to get the final result.😊💻✨
+
+## ⚠️ Ethical Note
+
+I completed this exercise as part of my cybersecurity internship in a controlled learning environment. Password recovery tools should only be used on files, systems, or accounts where proper permission has been given. 
+
