@@ -12,8 +12,8 @@ The goal was to recover the password and get familiar with different tools that 
 * 📝 **Notepad**
 * 🔐 **John the Ripper**
 * 🖥️ **Johnny**
-* 🔎 **Portal Hash Cracker**
-* 🔑 **Portal Password Cracker**
+* 🔎 **NETWORKWALKS Hash Cracker**
+* 🔑 **NETWORKWALKS Password Cracker**
 
 ## 🔎 What I Did
 
