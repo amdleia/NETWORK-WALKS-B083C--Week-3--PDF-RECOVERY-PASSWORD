@@ -2,9 +2,9 @@
 
 ## ⭐ Overview ⭐
 
-For **Week 3 of my cybersecurity internship**, I worked on a practical exercise involving a password-protected PDF. My goal was to recover the PDF password using a few different tools and understand how they work together.
+For **Week 3 of my cybersecurity internship**, I worked on a practical exercise involving a password-protected PDF.
 
-It was nice to actually get hands-on with the tools and see the process from start to finish rather than just reading about it. 💻🔎
+The goal was to recover the password and get familiar with different tools that can be used during the process. I had already worked with password cracking during my studies, so this was a good opportunity to try different tools and approaches again.
 
 ## 🛠️ Tools I Used
 
@@ -12,43 +12,47 @@ It was nice to actually get hands-on with the tools and see the process from sta
 * 📝 **Notepad**
 * 🔐 **John the Ripper**
 * 🖥️ **Johnny**
+* 🔎 **Portal Hash Cracker**
+* 🔑 **Portal Password Cracker**
 
 ## 🔎 What I Did
 
 ### 1️⃣ Extracting the Hash
 
-I started by using **PDF Hash Extractor** to extract the hash from the password-protected PDF. 📄🔎
+I started by using **PDF Hash Extractor** to extract the hash from the password-protected PDF.
 
-### 2️⃣ Preparing the File
+### 2️⃣ Preparing the Hash
 
-After extracting the hash, I copied it into **Notepad** and saved it as a `.txt` file. This allowed me to use the file with Johnny. 📝💾
+I copied the extracted hash into **Notepad** and saved it as a `.txt` file so I could use it with the password recovery tools.
 
-### 3️⃣ Using Johnny
+### 3️⃣ Trying Different Tools
 
-Next, I opened the `.txt` file in **Johnny**, which provides a graphical interface for John the Ripper. I then started the password recovery process. 🔐💻
+I used **John the Ripper** and **Johnny** to work through the password recovery process. I also used **Portal Hash Cracker** and **Portal Password Cracker** to explore other ways of recovering the password.
 
-### 4️⃣ Checking the Password
+### 4️⃣ Recovering the Password
 
-Once the password was recovered, I used it to open the PDF and checked that it worked successfully. ✅📄
+After working through the process, I was able to **successfully recover the password** and use it to open the PDF.
 
 ## 🧠 What I Learned
 
-This exercise gave me a better understanding of how password recovery works in a controlled environment.
+This project gave me the chance to practice password recovery again and explore tools that I had not used before.
 
-I also got more comfortable with:
+I became more familiar with:
 
-* 🔎 Extracting hashes from PDF files
-* 📝 Preparing files for use with cybersecurity tools
-* 🔐 Using John the Ripper
-* 🖥️ Using Johnny
-* 🧩 Following a technical process step by step
-* 📚 Documenting my work
+* Extracting hashes from PDF files
+* Preparing hash files for password recovery tools
+* Using John the Ripper and Johnny
+* Exploring different password-cracking methods
+* Following a technical process step by step
 
 ## 💭 My Takeaway
 
-I enjoyed this exercise because I was able to work with the tools myself and see how each step connected to the next. It also showed me that even a simple task can involve several different steps and tools to get the final result.😊💻✨
+I enjoyed this project because it gave me the opportunity to learn **different ways of cracking passwords** and get more comfortable using different cybersecurity tools.
+
+It was a good hands-on experience and helped me build on what I had already learned from my studies.
 
 ## ⚠️ Ethical Note
 
-I completed this exercise as part of my cybersecurity internship in a controlled learning environment. Password recovery tools should only be used on files, systems, or accounts where proper permission has been given. 
+This project was completed as part of my **cybersecurity internship** in an authorized and controlled learning environment. Password recovery and cracking tools should only be used on files, systems, or accounts where proper permission has been given.
+
 
