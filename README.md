@@ -27,7 +27,7 @@ I copied the extracted hash into **Notepad** and saved it as a `.txt` file so I 
 
 ### 3️⃣ Trying Different Tools
 
-I used **John the Ripper** and **Johnny** to work through the password recovery process. I also used **Portal Hash Cracker** and **Portal Password Cracker** to explore other ways of recovering the password.
+I used **John the Ripper** and **Johnny** to work through the password recovery process. I also used **NETWORKWALKS Hash Cracker** and **NETWORKWALKS Password Cracker** to explore other ways of recovering the password.
 
 ### 4️⃣ Recovering the Password
 
